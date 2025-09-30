@@ -1,93 +1,129 @@
-# Sales Data Analysis — README
+Sales Data Analysis Project 💰📊
 
-[Scroll for Arabic](#arabic---العربية)
+This project focuses on data cleaning, exploratory data analysis (EDA), and visualization using a sales dataset.
+We explore sales attributes (Product, Category, Quantity, Price, Revenue, Date, etc.)
+to understand sales performance and business insights.
 
----
+🚀 Project Workflow
 
-## English — Quick & Clear
+Data Collection
 
-### Project Overview
+Import sales dataset from CSV.
 
-This project is about analyzing a fictional company's yearly sales dataset (`sales_data.csv`). The goal is to clean the raw data, calculate key metrics, and visualize results in a clear, simple way.
+Convert date column to datetime format.
 
-### Repository Contents
+Data Cleaning
 
-* **Dataset**: `sales_data.csv` — includes columns like date, product, category, price, quantity, and revenue.
-* **Script**: `clean_and_analyze.py` — suggested Python script for cleaning and analyzing the data.
-* **Outputs**: `outputs/` — stores generated charts and optional reports.
+Check missing values.
 
-### Workflow
+Ensure column consistency and correct data types.
 
-1. Load and inspect the dataset.
-2. Clean the data (fix typos in categories, fill missing values, recalculate revenue).
-3. Calculate main KPIs:
+Exploratory Data Analysis (EDA)
 
-   * Total revenue for the year
-   * Top product by revenue
-   * Top category by revenue
-   * Average price, total quantity sold, average revenue per sale
-4. Visualize results:
+Total revenue per product.
 
-   * Revenue by quarter (bar chart)
-   * Revenue share by category (pie chart)
-   * Monthly revenue trend (line chart)
-5. Save the cleaned dataset as a new file (`sales_data_cleaned.csv`).
+Average price across all products.
 
-### Key Features
+Total quantity sold.
 
-* Simple and lightweight analysis using pandas and matplotlib.
-* Cleaned dataset saved separately, keeping the original intact.
-* Visual outputs make trends and insights easier to understand.
+Revenue per category.
 
-### Example Outputs
+Average revenue per transaction.
 
-* **Quarterly Revenue Bar Chart**
-* **Category Revenue Pie Chart**
-* **Monthly Revenue Line Trend**
+Time-based Analysis
 
+Quarterly revenue analysis.
 
----
+Monthly revenue trends.
 
-## Arabic — العربية
+Visualization
 
-### نظرة عامة
+Bar chart for revenue per quarter.
 
-المشروع بيحلل بيانات مبيعات افتراضية لسنة كاملة (`sales_data.csv`). الهدف هو تنظيف البيانات، حساب مؤشرات أساسية، ورسم بعض الرسومات اللي توضح النتائج بشكل بسيط.
+Pie chart for revenue share by category.
 
-### محتويات المستودع
+Line chart for monthly revenue trend.
 
-* **البيانات**: `sales_data.csv` — فيه أعمدة زي التاريخ، المنتج، الفئة، السعر، الكمية، والإيراد.
-* **السكربت**: `clean_and_analyze.py` — سكربت بايثون مقترح لتنظيف وتحليل البيانات.
-* **المخرجات**: `outputs/` — لحفظ الرسومات والتقارير الاختيارية.
+🛠️ Tech Stack
 
-### خطوات العمل
+Python
 
-1. تحميل واستعراض البيانات.
-2. تنظيف البيانات (تصحيح أخطاء الكاتيجوري، ملء القيم الناقصة، إعادة حساب الإيراد).
-3. حساب أهم المؤشرات:
+Pandas, NumPy
 
-   * إجمالي الإيراد السنوي
-   * أعلى منتج من حيث الإيراد
-   * أعلى فئة من حيث الإيراد
-   * متوسط السعر، إجمالي الكمية، ومتوسط الإيراد لكل عملية بيع
-4. عمل رسومات:
+Matplotlib
 
-   * الإيراد لكل ربع سنة (bar chart)
-   * نسبة الإيراد لكل فئة (pie chart)
-   * اتجاه الإيراد الشهري (line chart)
-5. حفظ نسخة نظيفة من البيانات باسم جديد (`sales_data_cleaned.csv`).
+📊 Results
 
-### مميزات أساسية
+Identified top-performing products and categories.
 
-* تحليل بسيط وخفيف باستخدام pandas و matplotlib.
-* حفظ البيانات المنظفة في ملف منفصل للحفاظ على الملف الأصلي.
-* رسومات واضحة تساعد على فهم التريند والنتائج.
+Visualized seasonal trends in revenue (quarterly + monthly).
 
-### المخرجات المتوقعة
+Provided clear insights into pricing, sales volume, and revenue contribution.
 
-* **رسم بياني عمودي لإيراد كل ربع**
-* **رسم دائري لنسبة الإيراد حسب الفئة**
-* **رسم خطي للتريند الشهري**
+⬇ Scroll for Arabic ⬇
+
+مشروع تحليل بيانات المبيعات 💰📊
+
+المشروع ده بيركز على تنظيف البيانات، التحليل الاستكشافي (EDA)، وعمل رسومات بيانية باستخدام بيانات المبيعات.
+استكشفنا خصائص المبيعات (المنتج، الفئة، الكمية، السعر، الإيراد، التاريخ ...)،
+عشان نفهم أداء المبيعات ونستخرج إنسايتس مهمة.
+
+🚀 خطوات المشروع
+
+تجميع البيانات
+
+استيراد ملف المبيعات من CSV.
+
+تحويل عمود التاريخ إلى صيغة تاريخية (datetime).
+
+تنظيف البيانات
+
+فحص القيم المفقودة.
+
+التأكد من تناسق الأعمدة وأنواع البيانات.
+
+التحليل الاستكشافي (EDA)
+
+إجمالي الإيراد لكل منتج.
+
+متوسط السعر لكل المنتجات.
+
+إجمالي الكمية المباعة.
+
+الإيراد لكل فئة.
+
+متوسط الإيراد للعمليات.
+
+تحليل زمني
+
+تحليل الإيرادات ربع السنوية.
+
+اتجاه الإيرادات الشهرية.
+
+التصور البياني
+
+رسم عمودي يوضح الإيراد لكل ربع سنة.
+
+رسم دائري يوضح نسبة الإيراد حسب الفئة.
+
+رسم خطي يوضح اتجاه الإيراد الشهري.
+
+🛠️ الأدوات
+
+بايثون
+
+Pandas, NumPy
+
+Matplotlib
+
+📊 النتائج
+
+تحديد المنتجات والفئات الأعلى أداءً.
+
+توضيح الاتجاهات الموسمية في الإيرادات (ربع سنوي + شهري).
+
+استخراج رؤى واضحة عن الأسعار، حجم المبيعات، ومساهمة الإيرادات.
+
 
 
 
