@@ -1,90 +1,0 @@
-# Sales Data Analysis Project 💰📊
-
-This project focuses on **data cleaning**, **exploratory data analysis (EDA)**, and **visualization** using a sales dataset.  
-We explore sales attributes (**Product, Category, Quantity, Price, Revenue, Date, etc.**)  
-to understand sales performance and business insights.
-
----
-
-## 🚀 Project Workflow
-
-### 📥 Data Collection
-- Import sales dataset from CSV  
-- Convert date column to datetime format  
-
-### 🧹 Data Cleaning
-- Check missing values  
-- Ensure column consistency and correct data types  
-- Standardize categories (e.g., "Bags" vs. "Bgas", "Shoes" vs. "Shoeses")  
-
-### 📊 Exploratory Data Analysis (EDA)
-- Calculate total revenue by product  
-- Find average price and total quantity  
-- Summarize revenue by category and quarter  
-- Visualize revenue distribution by category and over time  
-
----
-
-## 🛠️ Tech Stack
-- Python  
-- Pandas, NumPy  
-- Matplotlib  
-- Jupyter Notebook  
-
----
-
-## 📊 Results
-- Identified key product categories driving revenue  
-- Cleaned and standardized data for accurate analysis  
-- Trends and seasonality in sales performance were visualized effectively  
-
----
-
-⬇ Scroll for Arabic ⬇
-
----
-
-# مشروع تحليل بيانات المبيعات 💰📊
-
-المشروع بيركز على **تنظيف البيانات**، **التحليل الاستكشافي (EDA)**، و **الرسوم البيانية** باستخدام بيانات المبيعات.  
-بنستكشف خصائص المنتجات (**المنتج، الفئة، الكمية، السعر، الإيراد، التاريخ ...**)  
-علشان نفهم أداء المبيعات ونطلع رؤى تساعد في البيزنس.
-
----
-
-## 🚀 خطوات المشروع
-
-### 📥 تجميع البيانات
-- استيراد ملف المبيعات بصيغة CSV  
-- تحويل عمود التاريخ لصيغة تاريخ (datetime)  
-
-### 🧹 تنظيف البيانات
-- فحص القيم المفقودة  
-- التأكد من تناسق الأعمدة وأنواع البيانات  
-- توحيد الفئات (زي "Bags" و"Bgas"، "Shoes" و"Shoeses")  
-
-### 📊 التحليل الاستكشافي
-- حساب إجمالي الإيرادات لكل منتج  
-- استخراج متوسط السعر وإجمالي الكمية  
-- تلخيص الإيرادات حسب الفئة والربع السنوي  
-- رسم توزيع الإيرادات حسب الفئات والزمن  
-
-### 📈 الرسوم البيانية
-- Bar chart لإجمالي الإيرادات لكل ربع سنوي  
-- Pie chart لحصة الإيرادات حسب الفئات  
-- Line chart لتتبع الإيرادات شهريًا  
-
----
-
-## 🛠️ الأدوات
-- Python  
-- Pandas, NumPy  
-- Matplotlib  
-- Jupyter Notebook  
-
----
-
-## 📊 النتائج
-- تحديد الفئات الأساسية اللي بتحقق أكبر إيراد  
-- تنظيف وتوحيد البيانات لتحليل أدق  
-- توضيح الاتجاهات الموسمية في المبيعات بشكل بصري  
