@@ -1,0 +1,100 @@
+# Sales Data Analysis — README
+
+[Scroll for Arabic](#arabic---العربية)
+
+---
+
+## English — Quick & Clear
+
+### Project overview
+
+A simple, easy-to-follow analysis of a `sales_data.csv` file. The goal: clean the data, calculate key metrics (total revenue, top products/categories, averages), and produce charts and a short report.
+
+### What’s in the repo
+
+* `sales_data.csv` — the input dataset (date, product, category, price, quantity, revenue)
+* `clean_and_analyze.py` — (suggested) Python script using pandas + matplotlib to clean data and produce outputs
+* `outputs/` — folder to store generated charts and the final report (PDF or PPTX)
+
+### How to run (basic)
+
+1. Install Python (3.8+) and requirements: `pip install pandas matplotlib rapidfuzz openpyxl python-pptx` (optional)
+2. Put `sales_data.csv` in the repo root.
+3. Run the script:
+
+```bash
+python clean_and_analyze.py
+```
+
+The script will:
+
+* load and validate columns
+* fix common typos in categories (example mapping)
+* fill missing prices/quantities using per-product median
+* recalculate `revenue = price * quantity`
+* compute KPIs (total revenue, top product/category, averages)
+* save charts to `outputs/` and a short report
+
+### Notes
+
+* Missing categories are filled with `other` by default (or you can drop them)
+* Category cleaning uses a small mapping; to handle many typos use fuzzy matching (`rapidfuzz`)
+
+### Outputs you will get
+
+* `outputs/quarter_revenue.png`
+* `outputs/category_share.png`
+* `outputs/monthly_trend.png`
+* `outputs/report.pdf` (optional)
+
+
+
+---
+
+## Arabic — العربية
+
+### نبذة سريعة
+
+مشروع بسيط لتحليل ملف `sales_data.csv`. الهدف: تنظيف البيانات، حساب مؤشرات أساسية (إجمالي الإيراد، أعلى منتجات/تصنيفات، المتوسطات)، ورسم بعض الرسومات وإعداد تقرير بسيط.
+
+### محتويات المستودع
+
+* `sales_data.csv` — ملف البيانات (date, product, category, price, quantity, revenue)
+* `clean_and_analyze.py` — سكربت بايثون مقترح باستخدام pandas و matplotlib لتنظيف البيانات وإخراج النتائج
+* `outputs/` — فولدر لحفظ الرسومات والتقرير النهائي (PDF أو PPTX)
+
+### طريقة التشغيل (ببساطة)
+
+1. ثبّت Python (3.8+) والباكيجات المطلوبة: `pip install pandas matplotlib rapidfuzz openpyxl python-pptx` (اختياري)
+2. ضع `sales_data.csv` في مجلد المشروع.
+3. شغّل السكربت:
+
+```bash
+python clean_and_analyze.py
+```
+
+السكربت حيعمل الآتي:
+
+* يقرا البيانات ويتأكد من الأعمدة
+* يصلح الأخطاء الشائعة في أسماء التصنيفات (mapping مثال)
+* يملأ القيم الناقصة في السعر/الكمية بالميديان لكل منتج
+* يعيد حساب `revenue = price * quantity`
+* يحسب مؤشرات الأداء (إجمالي الإيراد، أعلى منتج/تصنيف، المتوسطات)
+* يحفظ الرسومات في `outputs/` ويولد تقرير صغير
+
+### ملاحظات
+
+* القيم الناقصة في التصنيف تُستبدل بـ `other` افتراضيًا (أو يمكنك حذفها)
+* توحيد التصنيفات يتم عبر قاموس تصحيحات؛ لو الأخطاء كثيرة استخدم مطابقة تقريبية (fuzzy matching) مثل `rapidfuzz`.
+
+### المخرجات المتوقعة
+
+* `outputs/quarter_revenue.png` — إيراد كل ربع سنة
+* `outputs/category_share.png` — نسبة الإيراد لكل تصنيف
+* `outputs/monthly_trend.png` — التريند الشهري
+* `outputs/report.pdf` — تقرير مختصر (اختياري)
+
+
+
+---
+
