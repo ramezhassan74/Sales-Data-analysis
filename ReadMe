@@ -1,116 +1,97 @@
-Sales Data Analysis — README
+# Sales Data Analysis — README
 
-Scroll for Arabic
+[Scroll for Arabic](#arabic---العربية)
 
-English — Quick & Clear
-Project Overview
+---
 
-This project is about analyzing a fictional company's yearly sales dataset (sales_data.csv). The goal is to clean the raw data, calculate key metrics, and visualize results in a clear, simple way.
+## English — Quick & Clear
 
-Repository Contents
+### Project Overview
 
-Dataset: sales_data.csv — includes columns like date, product, category, price, quantity, and revenue.
+This project is about analyzing a fictional company's yearly sales dataset (`sales_data.csv`). The goal is to clean the raw data, calculate key metrics, and visualize results in a clear, simple way.
 
-Script: clean_and_analyze.py — suggested Python script for cleaning and analyzing the data.
+### Repository Contents
 
-Outputs: outputs/ — stores generated charts and optional reports.
+* **Dataset**: `sales_data.csv` — includes columns like date, product, category, price, quantity, and revenue.
+* **Script**: `clean_and_analyze.py` — suggested Python script for cleaning and analyzing the data.
+* **Outputs**: `outputs/` — stores generated charts and optional reports.
 
-Workflow
+### Workflow
 
-Load and inspect the dataset.
+1. Load and inspect the dataset.
+2. Clean the data (fix typos in categories, fill missing values, recalculate revenue).
+3. Calculate main KPIs:
 
-Clean the data (fix typos in categories, fill missing values, recalculate revenue).
+   * Total revenue for the year
+   * Top product by revenue
+   * Top category by revenue
+   * Average price, total quantity sold, average revenue per sale
+4. Visualize results:
 
-Calculate main KPIs:
+   * Revenue by quarter (bar chart)
+   * Revenue share by category (pie chart)
+   * Monthly revenue trend (line chart)
+5. Save the cleaned dataset as a new file (`sales_data_cleaned.csv`).
 
-Total revenue for the year
+### Key Features
 
-Top product by revenue
+* Simple and lightweight analysis using pandas and matplotlib.
+* Cleaned dataset saved separately, keeping the original intact.
+* Visual outputs make trends and insights easier to understand.
 
-Top category by revenue
+### Example Outputs
 
-Average price, total quantity sold, average revenue per sale
-
-Visualize results:
-
-Revenue by quarter (bar chart)
-
-Revenue share by category (pie chart)
-
-Monthly revenue trend (line chart)
-
-Save the cleaned dataset as a new file (sales_data_cleaned.csv).
-
-Key Features
-
-Simple and lightweight analysis using pandas and matplotlib.
-
-Cleaned dataset saved separately, keeping the original intact.
-
-Visual outputs make trends and insights easier to understand.
-
-Example Outputs
-
-Quarterly Revenue Bar Chart
-
-Category Revenue Pie Chart
-
-Monthly Revenue Line Trend
+* **Quarterly Revenue Bar Chart**
+* **Category Revenue Pie Chart**
+* **Monthly Revenue Line Trend**
 
 
-Arabic — العربية
-نظرة عامة
+---
 
-المشروع بيحلل بيانات مبيعات افتراضية لسنة كاملة (sales_data.csv). الهدف هو تنظيف البيانات، حساب مؤشرات أساسية، ورسم بعض الرسومات اللي توضح النتائج بشكل بسيط.
+## Arabic — العربية
 
-محتويات المستودع
+### نظرة عامة
 
-البيانات: sales_data.csv — فيه أعمدة زي التاريخ، المنتج، الفئة، السعر، الكمية، والإيراد.
+المشروع بيحلل بيانات مبيعات افتراضية لسنة كاملة (`sales_data.csv`). الهدف هو تنظيف البيانات، حساب مؤشرات أساسية، ورسم بعض الرسومات اللي توضح النتائج بشكل بسيط.
 
-السكربت: clean_and_analyze.py — سكربت بايثون مقترح لتنظيف وتحليل البيانات.
+### محتويات المستودع
 
-المخرجات: outputs/ — لحفظ الرسومات والتقارير الاختيارية.
+* **البيانات**: `sales_data.csv` — فيه أعمدة زي التاريخ، المنتج، الفئة، السعر، الكمية، والإيراد.
+* **السكربت**: `clean_and_analyze.py` — سكربت بايثون مقترح لتنظيف وتحليل البيانات.
+* **المخرجات**: `outputs/` — لحفظ الرسومات والتقارير الاختيارية.
 
-خطوات العمل
+### خطوات العمل
 
-تحميل واستعراض البيانات.
+1. تحميل واستعراض البيانات.
+2. تنظيف البيانات (تصحيح أخطاء الكاتيجوري، ملء القيم الناقصة، إعادة حساب الإيراد).
+3. حساب أهم المؤشرات:
 
-تنظيف البيانات (تصحيح أخطاء الكاتيجوري، ملء القيم الناقصة، إعادة حساب الإيراد).
+   * إجمالي الإيراد السنوي
+   * أعلى منتج من حيث الإيراد
+   * أعلى فئة من حيث الإيراد
+   * متوسط السعر، إجمالي الكمية، ومتوسط الإيراد لكل عملية بيع
+4. عمل رسومات:
 
-حساب أهم المؤشرات:
+   * الإيراد لكل ربع سنة (bar chart)
+   * نسبة الإيراد لكل فئة (pie chart)
+   * اتجاه الإيراد الشهري (line chart)
+5. حفظ نسخة نظيفة من البيانات باسم جديد (`sales_data_cleaned.csv`).
 
-إجمالي الإيراد السنوي
+### مميزات أساسية
 
-أعلى منتج من حيث الإيراد
+* تحليل بسيط وخفيف باستخدام pandas و matplotlib.
+* حفظ البيانات المنظفة في ملف منفصل للحفاظ على الملف الأصلي.
+* رسومات واضحة تساعد على فهم التريند والنتائج.
 
-أعلى فئة من حيث الإيراد
+### المخرجات المتوقعة
 
-متوسط السعر، إجمالي الكمية، ومتوسط الإيراد لكل عملية بيع
+* **رسم بياني عمودي لإيراد كل ربع**
+* **رسم دائري لنسبة الإيراد حسب الفئة**
+* **رسم خطي للتريند الشهري**
 
-عمل رسومات:
 
-الإيراد لكل ربع سنة (bar chart)
 
-نسبة الإيراد لكل فئة (pie chart)
 
-اتجاه الإيراد الشهري (line chart)
 
-حفظ نسخة نظيفة من البيانات باسم جديد (sales_data_cleaned.csv).
-
-مميزات أساسية
-
-تحليل بسيط وخفيف باستخدام pandas و matplotlib.
-
-حفظ البيانات المنظفة في ملف منفصل للحفاظ على الملف الأصلي.
-
-رسومات واضحة تساعد على فهم التريند والنتائج.
-
-المخرجات المتوقعة
-
-رسم بياني عمودي لإيراد كل ربع
-
-رسم دائري لنسبة الإيراد حسب الفئة
-
-رسم خطي للتريند الشهري
 
 
