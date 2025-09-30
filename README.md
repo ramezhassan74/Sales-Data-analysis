@@ -1,125 +1,0 @@
-Sales Data Analysis Project 💰📊
-
-This project focuses on data cleaning, exploratory data analysis (EDA), and visualization using a sales dataset.
-We explore sales attributes (Product, Category, Quantity, Price, Revenue, Date, etc.)
-to understand sales performance and business insights.
-
-🚀 Project Workflow
-
-Data Collection
-
-Import sales dataset from CSV.
-
-Convert date column to datetime format.
-
-Data Cleaning
-
-Check missing values.
-
-Ensure column consistency and correct data types.
-
-Exploratory Data Analysis (EDA)
-
-Total revenue per product.
-
-Average price across all products.
-
-Total quantity sold.
-
-Revenue per category.
-
-Average revenue per transaction.
-
-Time-based Analysis
-
-Quarterly revenue analysis.
-
-Monthly revenue trends.
-
-Visualization
-
-Bar chart for revenue per quarter.
-
-Pie chart for revenue share by category.
-
-Line chart for monthly revenue trend.
-
-🛠️ Tech Stack
-
-Python
-
-Pandas, NumPy
-
-Matplotlib
-
-📊 Results
-
-Identified top-performing products and categories.
-
-Visualized seasonal trends in revenue (quarterly + monthly).
-
-Provided clear insights into pricing, sales volume, and revenue contribution.
-
-⬇ Scroll for Arabic ⬇
-
-مشروع تحليل بيانات المبيعات 💰📊
-
-المشروع ده بيركز على تنظيف البيانات، التحليل الاستكشافي (EDA)، وعمل رسومات بيانية باستخدام بيانات المبيعات.
-استكشفنا خصائص المبيعات (المنتج، الفئة، الكمية، السعر، الإيراد، التاريخ ...)،
-عشان نفهم أداء المبيعات ونستخرج إنسايتس مهمة.
-
-🚀 خطوات المشروع
-
-تجميع البيانات
-
-استيراد ملف المبيعات من CSV.
-
-تحويل عمود التاريخ إلى صيغة تاريخية (datetime).
-
-تنظيف البيانات
-
-فحص القيم المفقودة.
-
-التأكد من تناسق الأعمدة وأنواع البيانات.
-
-التحليل الاستكشافي (EDA)
-
-إجمالي الإيراد لكل منتج.
-
-متوسط السعر لكل المنتجات.
-
-إجمالي الكمية المباعة.
-
-الإيراد لكل فئة.
-
-متوسط الإيراد للعمليات.
-
-تحليل زمني
-
-تحليل الإيرادات ربع السنوية.
-
-اتجاه الإيرادات الشهرية.
-
-التصور البياني
-
-رسم عمودي يوضح الإيراد لكل ربع سنة.
-
-رسم دائري يوضح نسبة الإيراد حسب الفئة.
-
-رسم خطي يوضح اتجاه الإيراد الشهري.
-
-🛠️ الأدوات
-
-بايثون
-
-Pandas, NumPy
-
-Matplotlib
-
-📊 النتائج
-
-تحديد المنتجات والفئات الأعلى أداءً.
-
-توضيح الاتجاهات الموسمية في الإيرادات (ربع سنوي + شهري).
-
-استخراج رؤى واضحة عن الأسعار، حجم المبيعات، ومساهمة الإيرادات.
