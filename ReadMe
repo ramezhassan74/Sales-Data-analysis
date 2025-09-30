@@ -1,125 +1,95 @@
-Sales Data Analysis Project 💰📊
+# Sales Data Analysis Project 💰📊
 
-This project focuses on data cleaning, exploratory data analysis (EDA), and visualization using a sales dataset.
-We explore sales attributes (Product, Category, Quantity, Price, Revenue, Date, etc.)
+This project focuses on **data cleaning**, **exploratory data analysis (EDA)**, and **visualization** using a sales dataset.  
+We explore sales attributes (**Product, Category, Quantity, Price, Revenue, Date, etc.**)  
 to understand sales performance and business insights.
 
-🚀 Project Workflow
+---
 
-Data Collection
+## 🚀 Project Workflow
 
-Import sales dataset from CSV.
+### 📥 Data Collection
+- Import sales dataset from CSV.  
+- Convert date column to datetime format.  
 
-Convert date column to datetime format.
+### 🧹 Data Cleaning
+- Check missing values.  
+- Ensure column consistency and correct data types.  
+- Standardize categories (e.g., "Bags" vs. "Bgas", "Shoes" vs. "Shoeses").  
 
-Data Cleaning
+### 📊 Exploratory Data Analysis (EDA)
+- Calculate total revenue by product.  
+- Find average price and total quantity.  
+- Summarize revenue by category and quarter.  
+- Visualize revenue distribution by category and over time.  
 
-Check missing values.
+### 📈 Visualization
+- Bar chart for revenue per quarter.  
+- Pie chart for revenue share by category.  
+- Line chart for monthly revenue trend.  
 
-Ensure column consistency and correct data types.
+---
 
-Exploratory Data Analysis (EDA)
+## 🛠️ Tech Stack
+- Python  
+- Pandas, NumPy  
+- Matplotlib  
+- Jupyter Notebook  
 
-Total revenue per product.
+---
 
-Average price across all products.
+## 📊 Results
+- Identified key product categories driving revenue.  
+- Cleaned and standardized data for accurate analysis.  
+- Trends and seasonality in sales performance were visualized effectively.  
 
-Total quantity sold.
-
-Revenue per category.
-
-Average revenue per transaction.
-
-Time-based Analysis
-
-Quarterly revenue analysis.
-
-Monthly revenue trends.
-
-Visualization
-
-Bar chart for revenue per quarter.
-
-Pie chart for revenue share by category.
-
-Line chart for monthly revenue trend.
-
-🛠️ Tech Stack
-
-Python
-
-Pandas, NumPy
-
-Matplotlib
-
-📊 Results
-
-Identified top-performing products and categories.
-
-Visualized seasonal trends in revenue (quarterly + monthly).
-
-Provided clear insights into pricing, sales volume, and revenue contribution.
+---
 
 ⬇ Scroll for Arabic ⬇
 
-مشروع تحليل بيانات المبيعات 💰📊
+---
 
-المشروع ده بيركز على تنظيف البيانات، التحليل الاستكشافي (EDA)، وعمل رسومات بيانية باستخدام بيانات المبيعات.
-استكشفنا خصائص المبيعات (المنتج، الفئة، الكمية، السعر، الإيراد، التاريخ ...)،
-عشان نفهم أداء المبيعات ونستخرج إنسايتس مهمة.
+# مشروع تحليل بيانات المبيعات 💰📊
 
-🚀 خطوات المشروع
+المشروع بيركز على **تنظيف البيانات**، **التحليل الاستكشافي (EDA)**، و **الرسوم البيانية** باستخدام بيانات المبيعات.  
+بنستكشف خصائص المنتجات (**المنتج، الفئة، الكمية، السعر، الإيراد، التاريخ ...**)  
+علشان نفهم أداء المبيعات ونطلع رؤى تساعد في البيزنس.
 
-تجميع البيانات
+---
 
-استيراد ملف المبيعات من CSV.
+## 🚀 خطوات المشروع
 
-تحويل عمود التاريخ إلى صيغة تاريخية (datetime).
+### 📥 تجميع البيانات
+- استيراد ملف المبيعات بصيغة CSV.  
+- تحويل عمود التاريخ لصيغة تاريخ (datetime).  
 
-تنظيف البيانات
+### 🧹 تنظيف البيانات
+- فحص القيم المفقودة.  
+- التأكد من تناسق الأعمدة وأنواع البيانات.  
+- توحيد الفئات (زي "Bags" و"Bgas"، "Shoes" و"Shoeses").  
 
-فحص القيم المفقودة.
+### 📊 التحليل الاستكشافي
+- حساب إجمالي الإيرادات لكل منتج.  
+- استخراج متوسط السعر وإجمالي الكمية.  
+- تلخيص الإيرادات حسب الفئة والربع السنوي.  
+- رسم توزيع الإيرادات حسب الفئات والزمن.  
 
-التأكد من تناسق الأعمدة وأنواع البيانات.
+### 📈 الرسوم البيانية
+- Bar chart لإجمالي الإيرادات لكل ربع سنوي.  
+- Pie chart لحصة الإيرادات حسب الفئات.  
+- Line chart لتتبع الإيرادات شهريًا.  
 
-التحليل الاستكشافي (EDA)
+---
 
-إجمالي الإيراد لكل منتج.
+## 🛠️ الأدوات
+- Python  
+- Pandas, NumPy  
+- Matplotlib  
+- Jupyter Notebook  
 
-متوسط السعر لكل المنتجات.
+---
 
-إجمالي الكمية المباعة.
-
-الإيراد لكل فئة.
-
-متوسط الإيراد للعمليات.
-
-تحليل زمني
-
-تحليل الإيرادات ربع السنوية.
-
-اتجاه الإيرادات الشهرية.
-
-التصور البياني
-
-رسم عمودي يوضح الإيراد لكل ربع سنة.
-
-رسم دائري يوضح نسبة الإيراد حسب الفئة.
-
-رسم خطي يوضح اتجاه الإيراد الشهري.
-
-🛠️ الأدوات
-
-بايثون
-
-Pandas, NumPy
-
-Matplotlib
-
-📊 النتائج
-
-تحديد المنتجات والفئات الأعلى أداءً.
-
-توضيح الاتجاهات الموسمية في الإيرادات (ربع سنوي + شهري).
-
-استخراج رؤى واضحة عن الأسعار، حجم المبيعات، ومساهمة الإيرادات.
+## 📊 النتائج
+- تحديد الفئات الأساسية اللي بتحقق أكبر إيراد.  
+- تنظيف وتوحيد البيانات لتحليل أدق.  
+- توضيح الاتجاهات الموسمية في المبيعات بشكل بصري.  
